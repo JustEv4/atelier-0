@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*------------Header-------------*/
+header{
+    background-color: #053068cf;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    padding: 0.2%;
+}
+header img{
+    max-width: 8%;
+}
+.headitems{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .headitems h1{
+    color: aliceblue;
+    justify-content: center;
+}
+
+
+/*-------------footer-------------*/
+
+footer{
+    background-color: #053068cf;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/*-------------main login-------------*/
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    height: 100%;
+}
+
+form{
+    padding: 3%;
+    width: 50%;
+    text-align: left;
+    background-color: white;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.form-group label {
+    width: 30%;
+    font-weight: bolder;
+}
+
+.form-group input  {
+    flex-grow: 1;
+    padding: 3%;
+    border: 1px solid black;
+}
+
+form .button-container{
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 20px;
+}
+.button-container button{
+    background-color: black;
+    color: white;
+    border: 2px solid #385d8a;
+    border-radius: 2px;
+    padding: 7px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.button-container button:hover{
+    background-color: #385d8a;
+}

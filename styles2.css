@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*------------Header-------------*/
+header{
+    background-color: #053068cf;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+    padding: 0.2%;
+}
+header img{
+    max-width: 8%;
+}
+.headitems{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .headitems h1{
+    color: aliceblue;
+    justify-content: center;
+}
+
+
+/*-------------footer-------------*/
+
+footer{
+    background-color: #053068cf;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/*-------------main login-------------*/
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    height: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3%;
+    width: 90%;
+    text-align: left;
+    background-color: white;
+}
+.form-group-left{
+    width: 70%;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.form-group label {
+    width: 30%;
+    font-weight: bolder;
+}
+
+.form-group input  {
+    flex-grow: 1;
+    padding: 3%;
+    border: 1px solid black;
+}
+
+/*-------------notes button for page 2-------------*/
+.button-container2{
+    margin-left: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;   /* to be in column instead of each others*/
+    justify-content: flex-end;
+    gap: 10px; 
+    margin-top: 20px;
+}
+.button-container2 button{
+    background-color: black;
+    color: white;
+    border: 2px solid #385d8a;
+    border-radius: 2px;
+    padding: 7px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-container2 button:hover{
+    background-color: #385d8a;
+}
+
+/*-------------conatiner page 3-------------*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    height: 100%;
+}
+.container p{
+    background-color: #b7dee8;
+    padding: 10px 25%;
+}
+.container span{
+    font-size: 20px;
+    color: red;
+}

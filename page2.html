@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <img src="logo.php.png" alt="logo">
+        <div class="headitems">
+            <h1>Atelier 0</h1>
+        </div>
+    </header>
+    <main>
+        <form action="page3.html" method="get">
+            <div class="form-group-left">
+                <div class="form-group">
+                    <label for="name">Étudiant</label>
+                    <input type="text" id="name" name="name" placeholder="Entrer votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="math">Maths</label>
+                    <input type="number" id="math" name="note-math" placeholder="Entrer votre note" min="0" max="20" required>
+                </div>
+                <div class="form-group">
+                    <label for="info">Informatique</label>
+                    <input type="number" id="info" name="note-inf" placeholder="Entrer votre note" min="0" max="20" required>
+                </div>
+            </div>               
+            <div class="button-container2">
+                <button type="submit">Résultat</button>
+                <button type="reset">Annuler</button>
+            </div>           
+        </form>
+        
+    </main>
+    <footer>
+        <p>© 2025 Atelier 0. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
